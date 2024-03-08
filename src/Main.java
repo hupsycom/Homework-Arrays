@@ -1,47 +1,47 @@
+import java.sql.SQLOutput;
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
 
-        int[] array = new int[3];
-        array[0] = 1;
-        array[1] = 2;
-        array[2] = 3;
-        for (int arr = array.length - 1; arr >= 0; arr--) {
-            System.out.print(array[arr]);
-            if (arr != 0) {
-                System.out.print(" , ");
-            }else {
-                System.out.print(" . ");
-            }
-        }
-        System.out.println();
-        for (int arr = array.length -1; arr>=0; arr--) {
-            if (array[arr] % 2 == 0) {
-                System.out.print(array[arr] + " . ");
-            }
-        }
-        System.out.println();
+        System.out.println("Задача №1");
 
-        double[] array1 = {1.57, 7.654, 9.986};
-        for (int arr1 = array1.length - 1; arr1 >= 0; arr1--) {
-            System.out.print(array1[arr1]);
-            if (arr1 != 0) {
-                System.out.print(" , ");
-            }else{
-                System.out.print(" . ");
-            }
+        int[] arr1 = new int[]{1, 2, 3};
+        double[] arr2 = new double[]{1.57, 7.654, 9.986};
+        int[] arr3 = {1, 2, 3, 4, 5};
+
+        System.out.println("Задача №2");
+
+        System.out.println(Arrays.toString(arr1));
+        System.out.println(Arrays.toString(arr2));
+        System.out.println(Arrays.toString(arr3));
+
+        System.out.println("Задача №3");
+
+        for (int i = arr1.length - 1; i >= 0; i--) {
+            System.out.print(arr1[i] + ", ");
         }
         System.out.println();
 
+        for (int i = arr2.length - 1; i >= 0; i--) {
+            System.out.print(arr2[i] + ", ");
+        }
+        System.out.println();
 
-        int[] numbers = {1 , 2 , 3 , 4 , 5 , 6 , 0};
-        for (int n = numbers.length - 1; n >=0 ; n--) {
-            System.out.print(numbers[n]);
-            if (n != 0) {
-                System.out.print(" , ");
-            }else{
-                System.out.print(" . ");
+        for (int i = arr3.length - 1; i >= 0; i--) {
+            System.out.print(arr3[i] + ", ");
+        }
+        System.out.println();
+
+        System.out.println("Задача №4");
+
+        for (int i = 0; i < arr1.length; i++) {
+            if (arr1[i] % 2 != 0) {
+                arr1[i] += 1;
             }
         }
+        System.out.println(Arrays.toString(arr1));
+
 
     }
 }
