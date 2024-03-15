@@ -73,6 +73,7 @@ public class Main {
         }
         System.out.println();
 
+
         System.out.println("Задача №4");
 
         for (int i = 0; i < arr1.length; i++) {
