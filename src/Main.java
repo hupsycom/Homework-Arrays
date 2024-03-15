@@ -63,6 +63,7 @@ public class Main {
         }
         System.out.println();
 
+
         for (int i = arr3.length - 1; i >= 0; i--) {
             System.out.print(arr3[i]);
             if (i < arr3.length - 1) {
