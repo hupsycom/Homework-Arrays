@@ -48,25 +48,27 @@ public class Main {
             if (i < arr1.length - 1) {
                 System.out.print(", ");
             } else {
-                System.out.println(". ");
+                System.out.print(". ");
             }
         }
+        System.out.println();
 
         for (int i = arr2.length - 1; i >= 0; i--) {
             System.out.print(arr2[i]);
             if (i < arr2.length - 1) {
                 System.out.print(", ");
             } else {
-                System.out.println(". ");
+                System.out.print(". ");
             }
         }
+        System.out.println();
 
         for (int i = arr3.length - 1; i >= 0; i--) {
             System.out.print(arr3[i]);
             if (i < arr3.length - 1) {
                 System.out.print(", ");
             } else {
-                System.out.println(". ");
+                System.out.print(". ");
             }
         }
         System.out.println();
