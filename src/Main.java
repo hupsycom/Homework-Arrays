@@ -16,34 +16,58 @@ public class Main {
         System.out.println("Задача №2");
 
         for (int i = 0; i < arr1.length; i++) {
-            System.out.print(arr1[i] + ", ");
+            System.out.print(arr1[i]);
+            if (i < arr1.length - 1) {
+                System.out.print(", ");
+            } else {
+                System.out.println(". ");
+            }
         }
-        System.out.println();
-
         for (int i = 0; i < arr2.length; i++) {
-            System.out.print(arr2[i] + ", ");
+            System.out.print(arr2[i]);
+            if (i < arr2.length - 1) {
+                System.out.print(", ");
+            } else {
+                System.out.println(". ");
+            }
         }
-        System.out.println();
-
         for (int i = 0; i < arr3.length; i++) {
-            System.out.print(arr3[i] + ", ");
+            System.out.print(arr3[i]);
+            if (i < arr3.length - 1) {
+                System.out.print(", ");
+            } else {
+                System.out.println(". ");
+            }
         }
-        System.out.println();
+
 
         System.out.println("Задача №3");
 
         for (int i = arr1.length - 1; i >= 0; i--) {
-            System.out.print(arr1[i] + ", ");
+            System.out.print(arr1[i]);
+            if (i < arr1.length - 1) {
+                System.out.print(", ");
+            } else {
+                System.out.println(". ");
+            }
         }
-        System.out.println();
 
         for (int i = arr2.length - 1; i >= 0; i--) {
-            System.out.print(arr2[i] + ", ");
+            System.out.print(arr2[i]);
+            if (i < arr2.length - 1) {
+                System.out.print(", ");
+            } else {
+                System.out.println(". ");
+            }
         }
-        System.out.println();
 
         for (int i = arr3.length - 1; i >= 0; i--) {
-            System.out.print(arr3[i] + ", ");
+            System.out.print(arr3[i]);
+            if (i < arr3.length - 1) {
+                System.out.print(", ");
+            } else {
+                System.out.println(". ");
+            }
         }
         System.out.println();
 
