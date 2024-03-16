@@ -45,7 +45,7 @@ public class Main {
 
         for (int i = arr1.length - 1; i >= 0; i--) {
             System.out.print(arr1[i]);
-            if (i < arr1.length - 1) {
+            if (i > 0) {
                 System.out.print(", ");
             } else {
                 System.out.print(". ");
@@ -55,7 +55,7 @@ public class Main {
 
         for (int i = arr2.length - 1; i >= 0; i--) {
             System.out.print(arr2[i]);
-            if (i < arr2.length - 1) {
+            if (i > 0) {
                 System.out.print(", ");
             } else {
                 System.out.print(". ");
@@ -66,7 +66,7 @@ public class Main {
 
         for (int i = arr3.length - 1; i >= 0; i--) {
             System.out.print(arr3[i]);
-            if (i < arr3.length - 1) {
+            if (i > 0) {
                 System.out.print(", ");
             } else {
                 System.out.print(". ");
